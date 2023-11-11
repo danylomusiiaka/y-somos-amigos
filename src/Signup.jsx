@@ -1,8 +1,9 @@
 import { useRef } from "react";
 import { useForm } from "react-hook-form";
-import "./Authorization.css";
+import Header from "./Header";
+import "./Signup.css";
 
-const Authorization = () => {
+const Signup = () => {
   const { register, handleSubmit } = useForm();
 
   const fileInputRef = useRef(null);
@@ -11,6 +12,7 @@ const Authorization = () => {
 
   return (
     <>
+      <Header />
       <div className="container mx-auto px-4 font-Montserrat">
         <h1 className="text-center font-bold text-[50px] mt-10">Вітаємо!</h1>
         <h2 className="text-center">
@@ -46,6 +48,24 @@ const Authorization = () => {
                 type="tel"
                 name="tel"
                 {...register("phone")}
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-2.5"
+              />
+            </label>
+            <label>
+              {"Пошта"}
+              <input
+                type="email"
+                name="email"
+                {...register("email")}
+                className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-2.5"
+              />
+            </label>
+            <label>
+              {"Пароль"}
+              <input
+                type="text"
+                name="password"
+                {...register("password")}
                 className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg w-full p-2.5"
               />
             </label>
@@ -90,4 +110,4 @@ const Authorization = () => {
   );
 };
 
-export default Authorization;
+export default Signup;
