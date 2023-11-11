@@ -1,38 +1,40 @@
 function ShowPage() {
     return (<>
         <section class="container">
-        <nav class="d-flex align-items-center px-3">
-            <h2 class="navbar-brand mr-auto">Доступні знижки: </h2>
-            <div class=" d-flex align-items-center">
-                <input type="text" placeholder="Пошук..." />
-            <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
-                    Місто
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Львів</a></li>
-                    <li><a class="dropdown-item" href="#">Київ</a></li>
-                    <li><a class="dropdown-item" href="#">Одеса</a></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
-                    Категорія
-                </button>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Ресторани</a></li>
-                    <li><a class="dropdown-item" href="#">Магазини</a></li>
-                    <li><a class="dropdown-item" href="#">Здоров'я і краса</a></li>
-                </ul>
-            </div>
-            <button class="btn add-btn ml-auto">
+            <nav class="navbar ">
+                <h2 class="navbar-brand">Доступні знижки: </h2>
                 <div class="d-flex align-items-center">
-                    <p class="plus">+</p>
-                    <p class="mx-2">Додати</p>
+                    <input type="text" class="form-control" placeholder="Пошук..." />
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                            Місто
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Львів</a></li>
+                            <li><a class="dropdown-item" href="#">Київ</a></li>
+                            <li><a class="dropdown-item" href="#">Одеса</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
+                            Категорія
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ресторани</a></li>
+                            <li><a class="dropdown-item" href="#">Магазини</a></li>
+                            <li><a class="dropdown-item" href="#">Здоров'я і краса</a></li>
+                        </ul>
+                    </div>
+                    
+                    <button class="btn add-btn">
+                        <div class="d-flex align-items-center">
+                            <p class="plus">+</p>
+                            <p class="mx-2">Додати</p>
+                        </div>
+                    </button>
                 </div>
-                </button>
-            </div>
-        </nav>
+            </nav>
+
        
             <div class="row">
                 <div class="col-md-4 col-sm-6">
