@@ -1,5 +1,11 @@
+import Authorization from "./Authorization";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Authorization />
+    </>
+  );
 }
 
 export default App;
