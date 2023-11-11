@@ -58,7 +58,7 @@ nav {
 
 .add-btn {
     color: white;
-    width: 100px;
+    width: auto;
 }
 
 .add-btn:hover {
@@ -95,7 +95,7 @@ img {
     margin-left: 10px;
 } 
 
-input {
+input, .form-control {
     padding: 7px 12px;
     margin-right: 5px;
     border: 1px solid #d1d5da;
@@ -103,9 +103,12 @@ input {
     background-color: #f6f8fa;
     font-size: 14px;
     color: #24292e;
-    width: 300px;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
+}
+
+input {
+    width: 270px;
 }
 
 input:focus {
@@ -113,3 +116,15 @@ input:focus {
     outline: 0;
     box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
 }
+
+
+.new-ad {
+    width: 1000px;
+    height: 500px;
+    margin-top: 3rem;
+}
+
+.new-title {
+    padding-bottom: 20px;
+}
+
