@@ -2,114 +2,127 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
-    margin-top: 3rem;
-    margin-bottom: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .navbar-brand {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.sign-in, .add-btn {
-    background: linear-gradient(89.85deg, rgba(0, 208, 46, 0.5) 3.03%, #00D0C5 96.97%);
+.sign-in,
+.add-btn {
+  background: linear-gradient(
+    89.85deg,
+    rgba(0, 208, 46, 0.5) 3.03%,
+    #00d0c5 96.97%
+  );
 }
 
 .sign-in:hover,
 .add-btn:hover {
-    background: linear-gradient(89.85deg, rgba(0, 208, 46, 0.8) 3.03%, #00D0C5 96.97%);
+  background: linear-gradient(
+    89.85deg,
+    rgba(0, 208, 46, 0.8) 3.03%,
+    #00d0c5 96.97%
+  );
 }
 
-.dropdown-toggle, .btn-choose {
-    background-color: #f6f8fa;
-    color: #24292e;
-    border: 1px solid #d1d5da;
-    padding: 6px 12px;
-    border-radius: 6px;
-    cursor: pointer;
-    margin-right: 5px;
+.dropdown-toggle,
+.btn-choose {
+  background-color: #f6f8fa;
+  color: #24292e;
+  border: 1px solid #d1d5da;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 5px;
 }
-.dropdown-toggle:hover, .login:hover {
-    background-color: rgba(212, 212, 213, 0.8);
+.dropdown-toggle:hover,
+.login:hover {
+  background-color: rgba(212, 212, 213, 0.8);
 }
 
 .dropdown-menu {
-    background-color: #f6f8fa;
-    border: 1px solid #d1d5da;
-    border-radius: 6px;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-    padding: 8px 0;
+  background-color: #f6f8fa;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  padding: 8px 0;
 }
 
 .dropdown-item {
-    color: #0366d6;
+  color: #0366d6;
 }
 
 .dropdown-item:hover {
-    background-color: #0366d6;
-    color: #ffffff;
+  background-color: #0366d6;
+  color: #ffffff;
 }
 
 .add-btn {
-    color: white;
-    width: 100px;
+  color: white;
+  width: 100px;
 }
 
 .add-btn:hover {
-    color: white;
+  color: white;
 }
 
 .btn-choose {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 img {
-    object-fit: cover;
+  object-fit: cover;
 }
 
 .login,
 .login:hover {
-    border: 1px solid #00d02e80;
+  border: 1px solid #00d02e80;
 }
 
-
 .card-img-top {
-    width: 25rem;
-    height: 20rem;
+  width: 25rem;
+  height: 20rem;
 }
 
 @media (max-width: 450px) {
-    .navbar {
-        margin: 10px !important;
-    }
-
+  .navbar {
+    margin: 10px !important;
+  }
 }
 
 .card {
-    margin-left: 10px;
-} 
+  margin-left: 10px;
+}
 
 input {
-    padding: 7px 12px;
-    margin-right: 5px;
-    border: 1px solid #d1d5da;
-    border-radius: 6px;
-    background-color: #f6f8fa;
-    font-size: 14px;
-    color: #24292e;
-    width: 300px;
-    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-
+  padding: 7px 12px;
+  margin-right: 5px;
+  border: 1px solid #d1d5da;
+  border-radius: 6px;
+  background-color: #f6f8fa;
+  font-size: 14px;
+  color: #24292e;
+  width: 300px;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
 }
 
 input:focus {
-    border-color: #0366d6;
-    outline: 0;
-    box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+  border-color: #0366d6;
+  outline: 0;
+  box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
 }
