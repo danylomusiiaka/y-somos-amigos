@@ -71,6 +71,7 @@ function ShowPage() {
           </div>
         </nav>
 
+
         <div class="row">
           <Card
             name="JYSK"
