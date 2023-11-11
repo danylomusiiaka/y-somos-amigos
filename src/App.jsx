@@ -1,10 +1,12 @@
-import Authorization from "./Authorization";
+
+import Header from "./Header";
+import ShowPage from "./ShowPage";
 
 function App() {
-  return (
-    <>
-      <Authorization />
-    </>
+  return ( <>
+    <Header />
+    <ShowPage />
+  </>
   );
 }
 
