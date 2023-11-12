@@ -7,7 +7,7 @@
     "category": "shop",
     "start_date": 1673424000000,
     "end_date": 1673424000000,
-    "img": "jysk.jpg"
+    "img": "images/jysk.jpg"
   },
   {
     "title": "SomeCafe",
@@ -17,7 +17,7 @@
     "category": "cafe",
     "start_date": 1673424000000,
     "end_date": 1673424000000,
-    "img": "somecafe.jpg"
+    "img": "images/somecafe.jpg"
   },
   {
     "title": "Veterano Pizza",
@@ -27,6 +27,6 @@
     "category": "restaurant",
     "start_date": 1673424000000,
     "end_date": 1673424000000,
-    "img": "veteranopizza.jpg"
+    "img": "images/veteranopizza.jpg"
   }
 ]
