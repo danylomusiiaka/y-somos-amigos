@@ -46,7 +46,6 @@ function ShowPage() {
       );
     }
   };
-
   return (
     <>
       <Header />
