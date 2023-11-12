@@ -31,14 +31,7 @@ const Card = (props) => {
             </div>
             <p class="card-text text-justify">{shortDescription}</p>
             <div>
-              <div className="flex justify-between items-center">
-                <p className="font-bold">Старт акції: </p>
-                <p>{"12-34-4444"}</p>
-              </div>
-              <div className="flex justify-between items-center mt-2">
-                <p className="font-bold">Кінець акції: </p>
-                <p>{"12-34-4444"}</p>
-              </div>
+              
               <div className=" flex justify-between items-center">
                 <p className="font-bold mt-2">Локація: </p>
                 <p>{location}</p>

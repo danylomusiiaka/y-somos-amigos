@@ -103,6 +103,11 @@ img {
   margin-left: 10px;
 }
 
+.test {
+  width: 175px;
+}
+
+
 
 input, .form-control {
     padding: 7px 12px;

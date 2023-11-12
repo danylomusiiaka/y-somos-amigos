@@ -5,6 +5,3 @@ input[type="file"]::file-selector-button {
   padding: 5px;
 }
 
-/* input[type="file"]::-webkit-file-upload-button {
-  display: none;
-} */

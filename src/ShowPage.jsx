@@ -57,11 +57,11 @@ function ShowPage() {
             <input type="text" placeholder="Пошук..." onChange={searchHandle} />
             <div className="flex">
               <select
-                class="btn dropdown-toggle"
+                class="form-select"
                 onChange={cityCategoryHandler}
               >
-                <option value="" disabled selected>
-                  Місто
+                <option value="" selected>
+                  Всі міста
                 </option>
                 <option value="lviv">Львів</option>
                 <option value="kyiv">Київ</option>
@@ -69,73 +69,23 @@ function ShowPage() {
               </select>
 
               <select
-                class="btn dropdown-toggle"
+                class="form-select mx-2 test"
                 onChange={categoryCategoryHandler}
               >
-                <option class="dropdown-item" value="" disabled selected>
-                  Категорія
+                <option value="" selected>
+                  Всі категорії
                 </option>
-                <option class="dropdown-item" value="shop">
+                <option value="shop">
                   Магазини
                 </option>
-                <option class="dropdown-item" value="restaurant">
+                <option value="restaurant">
                   Ресторани
                 </option>
-                <option class="dropdown-item" value="cafe">
+                <option value="cafe">
                   Кафе
                 </option>
               </select>
-              {/* <button
-                type="button"
-                class="btn dropdown-toggle"
-                data-bs-toggle="dropdown"
-                onChange={cityCategoryHandler}
-              >
-                Місто
-              </button> */}
-              {/* <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Львів
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Київ
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Одеса
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <button
-                type="button"
-                class="btn dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Категорія
-              </button>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Ресторани
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Магазини
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Здоров'я і краса
-                  </a>
-                </li>
-              </ul> */}
+          
             </div>
             <Link to="/create-discount">
               <button class="btn add-btn ml-auto">
@@ -157,51 +107,10 @@ function ShowPage() {
                 description={card.description}
                 discount_value={card.discount_value}
                 location={card.location}
-                start_date={card.start_date}
-                end_date={card.end_date}
                 img={card.img}
               />
             ))}
-          {/* <Card
-            title="JYSK"
-            description="Some quick example text to build on the card title and make up
-            the bulk of the card's content."
-            discount_value="35"
-            location="Kyiv"
-            start_date={Date.now()}
-            end_date={Date.now()}
-            img="./../images/jysk.jpg"
-          />
-          <Card
-            title="Cafe"
-            description="Some quick example text to build on the card title and make up
-            the bulk of the card's content."
-            discount_value="35"
-            location="Kyiv"
-            start_date={Date.now()}
-            end_date={Date.now()}
-            img="./../images/somecafe.jpg"
-          />
-          <Card
-            title="Veterano Pizza"
-            description="Some quick example text to build on the card title and make up
-            the bulk of the card's content."
-            discount_value="35"
-            location="Kyiv"
-            start_date={Date.now()}
-            end_date={Date.now()}
-            img="./../images/veteranopizza.jpg"
-          />
-          <Card
-            title="Veterano Pizza"
-            description="Some quick example text to build on the card title and make up
-            the bulk of the card's content."
-            discount_value="35"
-            location="Kyiv"
-            start_date={Date.now()}
-            end_date={Date.now()}
-            img="./../images/veteranopizza.jpg"
-          /> */}
+          
         </div>
       </section>
     </>

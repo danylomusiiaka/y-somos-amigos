@@ -1,8 +1,8 @@
 [
   {
     "title": "JYSK",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "discount_value": "35",
+    "description": "JYSK надає знижку на всі меблі та аксесуари",
+    "discount_value": "8",
     "location": "Kyiv",
     "category": "shop",
     "start_date": 1673424000000,
@@ -10,9 +10,9 @@
     "img": "./../images/jysk.jpg"
   },
   {
-    "title": "Cafe",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "discount_value": "35",
+    "title": "SomeCafe",
+    "description": "SomeCafe надає знижку на всі бізнес-ланчі",
+    "discount_value": "20",
     "location": "Kyiv",
     "category": "cafe",
     "start_date": 1673424000000,
@@ -21,9 +21,9 @@
   },
   {
     "title": "Veterano Pizza",
-    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "discount_value": "35",
-    "location": "Kharkiv",
+    "description": "Veterano Pizza залучає ветеранів до роботи",
+    "discount_value": "15",
+    "location": "Lviv",
     "category": "restaurant",
     "start_date": 1673424000000,
     "end_date": 1673424000000,

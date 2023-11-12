@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-    <div class="navbar navbar-light bg-light px-4">
+    <header class="navbar navbar-light bg-light px-4">
       <Link to="/">
         <a href="#" class="navbar-brand h1">
-          Amigos
+          GlorytoHeroes 
         </a>
       </Link>
       <div class="form-inline">
@@ -16,7 +16,7 @@ function Header() {
           <button class="btn sign-in">Зареєструватись</button>
         </Link>
       </div>
-    </div>
+    </header>
   );
 }
 
