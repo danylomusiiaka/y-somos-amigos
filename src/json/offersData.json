@@ -1,0 +1,32 @@
+[
+  {
+    "title": "JYSK",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "discount_value": "35",
+    "location": "Kyiv",
+    "category": "shop",
+    "start_date": 1673424000000,
+    "end_date": 1673424000000,
+    "img": "./../images/jysk.jpg"
+  },
+  {
+    "title": "Cafe",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "discount_value": "35",
+    "location": "Kyiv",
+    "category": "cafe",
+    "start_date": 1673424000000,
+    "end_date": 1673424000000,
+    "img": "./../images/somecafe.jpg"
+  },
+  {
+    "title": "Veterano Pizza",
+    "description": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "discount_value": "35",
+    "location": "Kharkiv",
+    "category": "restaurant",
+    "start_date": 1673424000000,
+    "end_date": 1673424000000,
+    "img": "./../images/veteranopizza.jpg"
+  }
+]

@@ -1,8 +1,10 @@
-import { useParams } from "react-router";
+import { useLocation } from "react-router-dom";
 
-const DetailedOffer = () => {
-  const parameter = useParams();
-  console.log(parameter.id);
+const DetailedOffer = (props) => {
+  const location = useLocation();
+  const data = location.state?.data;
+
+  console.log(data, props);
 
   return <div>DetailedOffer</div>;
 };
